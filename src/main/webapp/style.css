@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+  color: white;
+  padding-left: 50px;
+  font-size: 1.5em;
+}
+
+.header {
+  background: #343a40;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+}
+
+.button-container {
+    display: flex;
+}
+
+.button-container > div {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.button-container > button {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.upload-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #6C757D;
+  height: 50px;
+  width: 200px;
+  border: 0px;
+  border-radius: 8px;
+}
+
+.submit-button {
+    color: white;
+    font-size: 1em;
+    background:#007aff;
+    height: 50px;
+    width: 200px;
+    border: 0px;
+    border-radius: 8px;
+  }
+
+label {
+  cursor: pointer;
+  font-size: 1em;
+  color: white;
+}
+
+.image-container {
+    display: flex;
+    height: 100vh"
+}
+
+.image-container > div {
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+    display: flex;
+          justify-content: center;
+          align-items: center;
+          background: royalblue;
+          width: 50vw;
+          height: 50vh;
+}
+
+.ocr-results-container {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    height: 20vh;
+    width: 80%%;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.ocr-results-container > div {
+    width: 50%;
+    height: 100%;
+}
+
+table {
+    width: 50%;
+}
+
+#upload-photo {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+#filename {
+    margin-top: 50px;
+    margin-bottom: 10px;
+    width: 440px;
+    height: 50px;
+    padding-left: 10px;
+    border-radius: 8px;
+    border: 0px;
+    font-size: 1.3em;
+}
